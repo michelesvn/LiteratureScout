@@ -13,10 +13,10 @@ LiteratureScout/
             2025/
                 summarized_pdf1.pdf
                 summarized_pdf2.pdf
-                ...
+                [...]
             2024/
-                ...
-            ...
+                [...]
+            [...]
         .env
         agentic_aggregation.py
         agentic_summarization.py
@@ -27,21 +27,21 @@ LiteratureScout/
             2025/
                 pdf1.pdf
                 pdf2.pdf
-                ...
+                [...]
             2024/
-                ...
-            ...
+                [...]
+            [...]
         Spider/
-                AAAI_spider.py           
-                ACL_spider.py            
-                ACM_spider.py         
-                base_spider.py          
-                credentials.json        
-                ICLR_spider.py
-                ICML_spider.py
-                IJCAI_spider.py          
-                NeurIPS_spider.py        
-                utils.py                 
+            AAAI_spider.py           
+            ACL_spider.py            
+            ACM_spider.py         
+            base_spider.py          
+            credentials.json        
+            ICLR_spider.py
+            ICML_spider.py
+            IJCAI_spider.py          
+            NeurIPS_spider.py        
+            utils.py                 
         automatic_main.py            
         config.py                    
         interactive_main.py         
