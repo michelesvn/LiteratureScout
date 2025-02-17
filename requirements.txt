@@ -1,0 +1,12 @@
+selenium~=4.27.1
+requests~=2.32.3
+chromedriver_autoinstaller
+fuzzywuzzy~=0.18.0
+openai~=1.57.4
+python-Levenshtein
+openai
+pdf2image~=1.17.0
+Pillow~=11.1.0
+fpdf~=1.7.2
+python-dotenv~=1.0.1
+pypdf2~=3.0.1
