@@ -103,6 +103,9 @@ def augment_keywords(keywords):
     - **Technical jargon frequently associated with the topic**
     - **Domain-specific terminology and key concepts** from relevant research papers
     - **Popular methodologies, frameworks, models, and algorithms** strongly tied to the topic
+    - **All words derived from the same root**, including verb forms, noun variations, and other morphological derivatives.
+      - Example: If the keyword is "recommender", include "recommend", "recommendation", "recommendations", etc.
+
 
     ### **Strict Formatting Rules:**
     - **Include both singular and plural forms of each keyword and its expansions.**
