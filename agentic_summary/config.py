@@ -14,8 +14,8 @@ API_VERSION = os.getenv("API_VERSION")
 PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 
 # Paths to input and output directories
-INPUT_PATH = os.path.join(PROJECT_ROOT, "Scraper", "Output")
-OUTPUT_PATH = os.path.join(PROJECT_ROOT, "AgenticSummary", "Output")
+INPUT_PATH = os.path.join(PROJECT_ROOT, "scraper", "output")
+OUTPUT_PATH = os.path.join(PROJECT_ROOT, "agentic_summary", "output")
 
 # Additional configuration settings for PDF processing and AI model parameters
 PDF_DPI = 300

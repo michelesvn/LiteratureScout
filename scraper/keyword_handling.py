@@ -1,7 +1,7 @@
 import json
 import re
 from openai import AzureOpenAI
-from AgenticSummary.config import (
+from agentic_summary.config import (
     API_KEY, AZURE_ENDPOINT, DEPLOYMENT_NAME, API_VERSION,
     MAX_TOKENS, TEMPERATURE, TOP_P, FREQUENCY_PENALTY, PRESENCE_PENALTY
 )

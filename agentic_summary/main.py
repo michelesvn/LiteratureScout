@@ -1,9 +1,9 @@
 from openai import AzureOpenAI
-from AgenticSummary.agentic_summarization import Agentic_Summarization
-from AgenticSummary.agentic_aggregation import Agentic_Aggregation
-from AgenticSummary.config import (API_KEY, AZURE_ENDPOINT, DEPLOYMENT_NAME, API_VERSION, INPUT_PATH, OUTPUT_PATH,
-                                   PDF_DPI, IMAGE_QUALITY, MAX_TOKENS, TEMPERATURE, TOP_P, FREQUENCY_PENALTY,
-                                   PRESENCE_PENALTY, MAX_PDFS_PER_FILE)
+from agentic_summary.agentic_summarization import Agentic_Summarization
+from agentic_summary.agentic_aggregation import Agentic_Aggregation
+from agentic_summary.config import (API_KEY, AZURE_ENDPOINT, DEPLOYMENT_NAME, API_VERSION, INPUT_PATH, OUTPUT_PATH,
+                                    PDF_DPI, IMAGE_QUALITY, MAX_TOKENS, TEMPERATURE, TOP_P, FREQUENCY_PENALTY,
+                                    PRESENCE_PENALTY, MAX_PDFS_PER_FILE)
 
 
 def main():

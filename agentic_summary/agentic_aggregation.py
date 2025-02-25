@@ -30,7 +30,7 @@ class Agentic_Aggregation:
         self.presence_penalty = presence_penalty
         self.max_pdfs_per_file = max_pdfs_per_file
 
-        self.states_of_art_path = os.path.join(self.output_path, "State of the Art")
+        self.states_of_art_path = os.path.join(self.output_path, "state_of_the_art")
         os.makedirs(self.states_of_art_path, exist_ok=True)
 
     def clean_directory(self):
@@ -212,7 +212,7 @@ class Agentic_Aggregation:
                             f"{paper_titles}\n\n"
                             "---\n"
                             "*Make sure that the full list is included exactly as provided above, keeping each title on a separate line.*\n"
-                            "### Final Output Format\n"
+                            "### Final output Format\n"
                             "- Ensure clarity, conciseness, and coherence.\n"
                             "- Use structured paragraphs and bullet points for easy readability.\n"
                             "- Include tables, figures, and examples where necessary.\n\n"
@@ -367,7 +367,7 @@ class Agentic_Aggregation:
                     "#### 6. Conclusion\n"
                     "- Provide final insights.\n"
                     "- Emphasize key takeaways from the survey.\n\n"
-                    "### Final Output Format\n"
+                    "### Final output Format\n"
                     "- Ensure clarity, conciseness, and coherence.\n"
                     "- Use structured paragraphs and bullet points for easy readability.\n"
                     "- Include **tables, figures, and examples** where necessary.\n\n"
@@ -522,7 +522,7 @@ class Agentic_Aggregation:
                     "- Escape **special LaTeX characters**: `&`, `%`, `$`, `{}`, `_`, `#`, `\\`.\n"
                     "- Ensure that **math expressions** are enclosed in `$...$` or `\\begin{equation} ... \\end{equation}`.\n"
 
-                    "### **Output Formatting Rules**\n"
+                    "### **output Formatting Rules**\n"
                     "- The **output must be pure LaTeX**.\n"
                     "- **DO NOT** include markdown formatting like ` ```latex ` or ` ``` `.\n"
                     "- **DO NOT** include extra text like 'Here is the LaTeX document...'.\n"
@@ -563,7 +563,7 @@ class Agentic_Aggregation:
 
     def convert_latex_to_pdf(self):
         """
-        Converts the LaTeX file in the 'State of the Art' directory into a PDF.
+        Converts the LaTeX file in the 'state_of_the_art' directory into a PDF.
         The generated PDF is saved in the same directory as 'state_of_the_art.pdf'.
 
         Returns:

@@ -1,5 +1,5 @@
 """
-Interactive Scraper:
+Interactive scraper:
 - Allows users to manually select academic sources (conferences, journals, etc.).
 - Users can specify the years of interest for paper retrieval.
 - Supports topic extraction from user input to refine search criteria.

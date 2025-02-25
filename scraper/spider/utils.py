@@ -78,7 +78,7 @@ def download_paper(pdf_url, pdf_title, save_dir, driver, keywords, max_retries=3
                 return False
 
 
-def load_credentials(file_path="Spider/credentials.json"):
+def load_credentials(file_path="spider/credentials.json"):
     if not os.path.exists(file_path):
         raise FileNotFoundError(f"Credentials file '{file_path}' not found.")
 

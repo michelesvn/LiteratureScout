@@ -1,5 +1,5 @@
 """
-Automatic Scraper:
+Automatic scraper:
 - Selects all available academic sources (conferences, journals, etc.).
 - Defines a predefined range of years for paper retrieval.
 - Uses a fixed set of predefined keywords for filtering relevant research.

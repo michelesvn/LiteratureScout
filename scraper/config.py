@@ -1,10 +1,10 @@
-from Spider.ACM_spider import ACM_spider
-from Spider.ACL_spider import ACL_spider
-from Spider.IJCAI_spider import IJCAI_spider
-from Spider.AAAI_spider import AAAI_spider
-from Spider.NeurIPS_spider import NeurIPS_spider
-from Spider.ICLR_spider import ICLR_spider
-from Spider.ICML_spider import ICML_spider
+from spider.ACM_spider import ACM_spider
+from spider.ACL_spider import ACL_spider
+from spider.IJCAI_spider import IJCAI_spider
+from spider.AAAI_spider import AAAI_spider
+from spider.NeurIPS_spider import NeurIPS_spider
+from spider.ICLR_spider import ICLR_spider
+from spider.ICML_spider import ICML_spider
 
 
 PROCEEDINGS = [

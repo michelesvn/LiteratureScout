@@ -12,7 +12,7 @@ class BaseSpider:
     and utility methods for waiting, clicking, and extracting elements.
     """
 
-    def __init__(self, output_path="Output", headless=True):
+    def __init__(self, output_path="output", headless=True):
         self.output_path = output_path
         #self.driver_path = chromedriver_autoinstaller.chromedriver_filename
         #self.service = Service(self.driver_path)
